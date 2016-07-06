@@ -1,0 +1,30 @@
+
+<style type="text/css">
+
+
+	.back-link a {
+		color: #4ca340;
+		text-decoration: none;
+		border-bottom: 1px #4ca340 solid;
+	}
+	.back-link a:hover,
+	.back-link a:focus {
+		color: #408536;
+		text-decoration: none;
+		border-bottom: 1px #408536 solid;
+	}
+	h1 {
+
+	}
+	h2 {
+		color: #1c1d1e;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: normal;
+	}
+	.entry-header .inner {
+		text-align: left;
+		margin: 0 auto 20px auto;
+		width: 800px;
+	}
+	.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
+</style>
