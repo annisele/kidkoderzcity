@@ -436,6 +436,8 @@ text-align: center;
     border-top: 2px black solid;
      height:100%;
         top:0%;
+        background-image:url('../images/bg/manhattan.jpg');
+
 }
 #slide-14 .hsContent {
 vertical-align: middle;
