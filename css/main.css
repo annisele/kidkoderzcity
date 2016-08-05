@@ -169,12 +169,15 @@ nav a.selected {
   border-bottom: 1px solid white;
 }
 .navbar-fixed {
+  background-color:  blue;
   top: 0;
   z-index: 100;
   position: fixed;
   width: 100%;
 }
 .navbar-top {
+  background-color: rgba(255,255,255,0) !important;
+
   position: absolute;
   height:10% !important;
   top:90% !important;
@@ -185,10 +188,12 @@ nav a.selected {
 }
 .navbar-brand {min-height:32px !important}
 .navbar-default{
+  font-family: 'Open Sans', serif;
+  background-color: #000;
+
     opacity: 1;
-    background-color:  #000;
     padding-left: 10px;
-    border-color: #000;
+    border-color: rgba(255,255,255,0);
 }
 .navbar-default .navbar-nav > li > a {
     color: #fafafa;
@@ -200,7 +205,7 @@ nav a.selected {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     text-decoration: underline;
-    color:#000;
+    color:#fff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -220,6 +225,26 @@ nav a.selected {
     z-index: 105;
 }
 
+.box {
+padding: 0 5px 0 5px;
+}
+.box .inner {
+    background: rgba(255,255,255,.65);
+
+    border-radius: 10px;
+    padding: 0.5px 2px 0.5px 2px;
+    height: 160px;
+
+}
+.thumbnail {
+  border-radius: 20px;
+  border-color: #000;
+  background-size: cover;
+  height: 270px;
+  border-width: 2px;
+
+}
+
 .bcg {
 
 	   position:fixed;
@@ -227,11 +252,13 @@ nav a.selected {
         width:100%;
         overflow:hidden;
 }
+
 /* Slide 1 */
 
 /* Slide 2 */
 #slide-1 .bcg {
   background-color: #fff;
+
 height: 100%;
     top:-100%;}
 
@@ -296,8 +323,7 @@ background: rgba(0,0,0,0);
     top:-50%;
 }
 #slide-13 .bcg {
-  background-color: #fafafa;
-
+  background: rgba(0,0,0,0);
     height: 100%;
     top:-100%;
 }
@@ -400,6 +426,7 @@ padding-right: 10%;
 vertical-align: middle;
 padding-left: 10%;
 padding-right: 10%;
+text-align: center;
 
 }
 #slide-10 .hsContainer {
@@ -421,8 +448,6 @@ padding-right: 10%;
 }
 
 #slide-13 .hsContainer {
-  background-color: #fafafa;
-    border-top: 2px black solid;
      height:100%;
         top:0%;
 }
@@ -453,7 +478,7 @@ text-align: center;
 }
     .hsContent h1,
     .copy h1 {
-      font-weight:bolder;
+font-family: 'PT Serif', serif;      /*font-weight:bold;*/
       color:#fff;
     }
 
@@ -472,6 +497,7 @@ text-align: center;
 
 
         */
+        font-family: 'Helvetica', serif;
 		font-size: 45px;
 		line-height: 48px;
 		margin-bottom: 12px;
@@ -511,7 +537,8 @@ text-align: center;
     }
 
 	.hsContent p {
-color: #fff;
+color: #000;
+font-family:"Open Sans";
 	}
 	.hsContent a {
 		color: #009989;
@@ -535,11 +562,6 @@ color: #fff;
 		background-color: rgba(0,0,0,0.75);
 		padding: 3px 10px;
 	}
-
-
-
-
-
 
 
 
