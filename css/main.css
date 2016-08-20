@@ -365,7 +365,7 @@ background: rgba(0,0,0,0);
 #slide-1 .hsContent {
 height: 100% !important;
     /*background-size: 60%;*/
-    padding-top: 8%;
+    padding-top: 4%;
 }
 #slide-3 .hsContainer {
     border-top: 2px black solid;
@@ -502,6 +502,7 @@ font-family: 'PT Serif', serif;      /*font-weight:bold;*/
 		line-height: 48px;
 		margin-bottom: 12px;
         font-weight: bold;
+        color: #FC3548;
 
         -webkit-text-stroke: 0px #888;
 	}
@@ -517,12 +518,9 @@ font-family: 'PT Serif', serif;      /*font-weight:bold;*/
     }
     .hsContent h4,
     .copy h4 {
-        font-weight: normal;
-        font-size: 3em;
-        line-height: 48px;
-        margin-bottom: 12px;
-        text-align: center;
-
+      font-family: 'Helvetica', serif;
+        font-size: 1.6em;
+        color: #fff;
     }
 .hsContent h5,
     .copy h5 {

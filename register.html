@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <title>KKCity.io</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
 
@@ -91,127 +92,57 @@
 
 
 
-<div class="jumbotron" style = "position:relative;top:-21px;background-color: #F6F6F6">
+<div class="jumbotron" style = "position:relative;top:5%;background-color: #F6F6F6">
       <div class="container" style= "background-color: #F6F6F6">
-        <h1 >Programming Projects</h1>
-        <p style ="font-family: NeoSans ">I started learning formal computer science in 2011. My first language was C++, followed by Java. Since then, I've picked up a few more languages and have acquainted myself with a few more technologies such as web development, databases and networking.</p>
+        <h1 >Register</h1>
 
       </div>
     </div>
 
- <section id="school">
-    <div class="page-header" id = "school">
-  <h1>School Related <small>C++, Java</small></h1>
+ <section id="register">
+    <div class="page-header" id = "school" style="margin:5%">
+  <h1> <small>Register for a session near you</small></h1><br><br>
+  <form class="form-horizontal" role="form" method="post" action="index.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-8">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-8">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+		</div>
+	</div>
+  <div class="form-group">
+		<label for="phone" class="col-sm-2 control-label">Phone number</label>
+		<div class="col-sm-8">
+			<input type="tel" class="form-control" id="tel" name="tel" placeholder="### - ### - ####" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-8">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-8 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-block sign-up-main btn-success"">
+		</div>
+	</div>
+</form>
 </div>
 
 <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2  style ="font-family: NeoSans-Medium ">SimCity</h2>
-          <a href="#" class="thumbnail">
-          <img src="images/software/simcity_java.PNG" alt="...">
-      </a>
-          <p>Created a multi-threaded city simulation.  Persons have complex scheduling behavior for their actions.  Implemented multi-agent communication.  Multiple building types include houses, restaurants, banks, and markets.  City is fully autonomous based on loaded configurations- people wake up, walk or drive to work, buy food when they run low, etc.  Programmed with Java, including a full GUI using Java's Abstract Window Toolkit. </p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2 style ="font-family: NeoSans-Medium ">9 tile game</h2>
-           <a href="#" class="thumbnail">
-          <img src="images/software/tile.png" alt="...">
-      </a>
-          <p >A puzzle game written in C++ using Qt framework for the user interface. The goal of the game is to shift the tiles so that they are in order starting at 1 with the top left corner as the blank. The program uses A star and two different heuristics to determine the winning sequence of plays that are displayed when the user asks for a cheat sequence. </p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2  style ="font-family: NeoSans-Medium ">STAR CRAFT - Space Titans </h2>
-           <a href="#" class="thumbnail">
-          <img src="images/software/starcraft.png" alt="...">
-      </a>
-          <p>A game written in C++ using Qt framework for the user interface. Set in outer space, the player follows the oddessy of Persues as he journeys to slay Medusa for the king Polydectes. </p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-        </div>
-      </div>
+
   </div>
 
-<div class="page-header" id="work">
-  <h1>Work Related <small> Python, Java, Macros</small></h1>
-</div>
 
 <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2 style ="font-family: NeoSans-Medium ">XML automator</h2>
-          <a href="#" class="thumbnail">
-          <img src="images/software/aa.png" alt="...">
-      </a>
-          <p >Xml validator so that screens the metadata attached to media files before entering a content management system so that further failures down the workflow are prevented. The script acts as another monitoring checkpoint in the ingest process and automatically checks, validates and moves files using the python library fsmonitor. Each file is processed seperately using the multiprocessing library to accomodate large data traffic.</p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2 style ="font-family: NeoSans-Medium ">PAN america</h2>
-          <a href="#" class="thumbnail">
-          <img src="images/software/pa.png" alt="...">
-      </a>
-          <p>Vod pan america workflow development. All the content has to be manually transfered to cms and there is no preliminary checks. If a file fails, then it has to be manually fixed and put back into the system. The pa ecosystem is relatively new and
-files have a 30 percent failure rate. I worked on the plan to fully automating the procedure and reduce failure rates. </p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View details »</a></p>
-       </div>
-        <div class="col-md-4">
 
-          <h2 style ="font-family: NeoSans-Medium ">AutoHotKeys Macro</h2>
-           <a href="#" class="thumbnail">
-          <img src="images/software/macro.png" alt="...">
-      </a>
-          <p>This macro is a simple script that interacts with content management web dom to automate the process of filling in and processing 8,000 movie titles. The script take data from an excel spreadsheet and fills it into various web pages.</p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-        </div>
-      </div>
   </div>
-
-<div class="page-header" id ="personal">
-  <h1>Personal <small> CSS/HTML, php, Javascript</small></h1>
-</div>
-
-<div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2 style ="font-family: NeoSans-Medium ">Personal Website</h2>
-          <a href="#" class="thumbnail">
-          <img src="images/software/jennyco_html.PNG" alt="...">
-      </a>
-          <p >Jennyc.co is the second version of my personal website. It uses CSS, html and javascript with the bootstrap framework and jquery library to create a parallax scrolling website that features my work.</p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2 style ="font-family: NeoSans-Medium ">SuGaurdian</h2>
-          <a href="#" class="thumbnail">
-          <img src="images/suguardian.png" alt="...">
-      </a>
-          <p>The SuGuardian: a non-invasive continuous-glucose-monitoring watch that uses telecommunication to send readings of blood-glucose-levels to users’ guardians. The targeted end users of the SuGuardian are children and seniors with type I or II diabetes.  The SuGuardian is programmed to alert/send alerts to subscribed guardians via telecommunication should users’ blood-glucose-levels rise or fall below the mean normal blood-glucose-level of humans by default, or the guardians can set their preference(s) for how often they would like to receive readings, regardless of urgency.  The SuGuardian intends to collect these readings through non-invasive technology.</p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View details »</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2 style ="font-family: NeoSans-Medium ">Gnar.Cars</h2>
-          <a href="#" class="thumbnail">
-          <img src="images/software/gnarcar_php.PNG" alt="...">
-      </a>
-          <p >GnarCar lets you connect with people going to music events. It lets you find people traveling to the same concert as you, and organize carpools based on the amount of drivers and passengers. Guests can create an account to offer or look for rides to events in the LA area. GnarCar is built using javascript, php, symfony2, html/css and utilizes the songkick and google maps API.</p>
-          <p><a class="btn btn-default" href="#" role="button" style=" font-family: 'arial';">View code »</a></p>
-        </div>
-      </div>
-    </div>
-    <div id = "design" class="jumbotron" style = "position:relative;top:20px;background-color: #F6F6F6">
-      <div class="container" >
-        <h1>Design Work</h1>
-        <p style ="font-family: NeoSans">Design has alway been an important part of my life. I have been using Photoshop for 8+ years and have a solid command of creative tools such as Illustrator, Visio, Maya, Final Cut and After Effects.</p>
-
-      </div>
-    </div>
-
-
 
 
 
@@ -221,8 +152,5 @@ files have a 30 percent failure rate. I worked on the plan to fully automating t
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
  </body>
-  <footer>
-    <hr>
-        <p>©KidKoderzCity</p>
-      </footer>
+
  </html>
