@@ -59,12 +59,12 @@
 	    // Resize our slides
 
 	    $slide2.height(winH* .05);
-	  	$slideExtra.height(winH* .25);	   
+	  	$slideExtra.height(winH* .25);
 	    $slideShort.height(winH*.5);
 	    $slide.height(winH);
 	    $slide60.height(winH*.6);
 	    $slide75.height(winH*.75);
-	    $slideTall.height(winH*2);
+	    $slideTall.height(winH*1.5);
 	    $slideTall2.height(winH*3);
 
 	    // Refresh Skrollr after resizing our sections
