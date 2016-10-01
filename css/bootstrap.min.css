@@ -1041,7 +1041,6 @@ a {
 }
 a:focus, a:hover {
     color: #23527c;
-    text-decoration: underline
 }
 a:focus {
     outline: thin dotted;
@@ -2792,7 +2791,6 @@ select[multiple].form-group-lg .form-control, textarea.form-group-lg .form-contr
 }
 .btn-link:focus, .btn-link:hover {
     color: #23527c;
-    text-decoration: underline;
     background-color: transparent
 }
 .btn-link[disabled]:focus, .btn-link[disabled]:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-link:hover {
