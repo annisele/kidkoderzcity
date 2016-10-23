@@ -8,6 +8,7 @@
  * Article URL: http://ihatetomatoes.net/how-to-create-a-parallax-scrolling-website/
  */
 
+
 ( function( $ ) {
 
 	// Setup variables
