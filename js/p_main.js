@@ -60,7 +60,7 @@
 	    // Resize our slides
 
 	    $slide2.height(winH* .05);
-	  	$slideExtra.height(winH* .25);
+	  	$slideExtra.height(winH* .2);
 	    $slideShort.height(winH*.5);
 	    $slide.height(winH);
 	    $slide60.height(winH*.6);

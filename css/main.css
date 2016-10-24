@@ -471,11 +471,14 @@ background: rgba(0,0,0,0);
     top:-100%;
 }
 #slide-7 .bcg {
+  height: 100%;
+    top:-100%;
+    border-top: 6px black solid;
 }
 #slide-8 .bcg {
     height: 100%;
     top:-100%;
-     border-top: 6px black solid;
+     border-top: 2px black solid;
 }
 #slide-9 .bcg {
     height: 150%;
@@ -607,11 +610,18 @@ background-image:url('../images/bg/bg-dust.png');
 background-position: top;
 
 }
-#slide-7 .hsContainer {
+
+#slide-7 .hsContent {
+vertical-align: middle;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+background-color: #000;
+
 
 }
 #slide-8 .hsContainer {
-    height:25% !important;
+    height:20%!important;
 }
 #slide-8 .hsContent {
 vertical-align: middle;
